@@ -1,4 +1,4 @@
-const dbConnection = require("./sqlite");
+const dbConnection = require("./sqlite"); //Initializing and establishing database
 
 dbConnection
   .getDbConnection()
