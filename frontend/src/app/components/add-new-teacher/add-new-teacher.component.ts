@@ -3,9 +3,9 @@ import {AppServiceService} from '../../app-service.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-add-new-teacher',
-  templateUrl: './add-new-teacher.component.html',
-  styleUrls: ['./add-new-teacher.component.css']
+  selector: 'app-add-new-teacher', //Name of the component
+  templateUrl: './add-new-teacher.component.html', // html file url
+  styleUrls: ['./add-new-teacher.component.css'] // cdd file url
 })
 export class AddNewTeacherComponent implements OnInit {
 
